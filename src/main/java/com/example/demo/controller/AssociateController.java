@@ -22,7 +22,9 @@ import com.example.demo.service.AssociateService;
  */
 @RestController
 @RequestMapping("/api/associates")
-@CrossOrigin(origins = "https://sainath105.github.io") // Allows frontend requests from Angular app
+@CrossOrigin(origins = "https://sainath105.github.io")
+// Allows frontend requests from Angular app
+//@CrossOrigin(origins="http://localhost:4200")
 public class AssociateController {
     
     @Autowired
